@@ -1,0 +1,19 @@
+
+
+Corrected Lidar & IMU Command:
+rosbag record /zed2/zed_node/rgb/camera_info /zed2/zed_node/rgb/image_rect_color /ouster/points /zed2/zed_node/imu/data /zed2/zed_node/imu/data_raw /zed2/zed_node/imu/mag /zed2/zed_node/depth/camera_info /zed2/zed_node/depth/depth_registered /septentrio_gnss/navsatfix /septentrio_gnss/imu /septentrio_gnss/insnavgeod /camera_fl/arena_camera_node/camera_info /camera_fl/arena_camera_node/image_raw /camera_fr/arena_camera_node/camera_info /camera_fr/arena_camera_node/image_raw /mako_1/mako_1/camera_info /mako_1/mako_1/image_raw
+
+
+ 
+
+
+
+rosbag play -l <name_rosbag>.bag
+
+
+
+
+
+
+
+
